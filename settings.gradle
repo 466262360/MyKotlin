@@ -1,2 +1,5 @@
+include ':lib:framework'
+include ':lib'
+include ':lib'
 include ':app'
 rootProject.name = "My Application"

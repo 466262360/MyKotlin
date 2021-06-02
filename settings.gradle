@@ -1,3 +1,5 @@
+include ':module:main'
+include ':module'
 include ':lib:framework'
 include ':lib'
 include ':lib'

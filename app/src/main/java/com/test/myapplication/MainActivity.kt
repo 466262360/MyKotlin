@@ -1,11 +1,18 @@
 package com.test.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.test.framework.ui.base.BaseActivity
+import com.test.framework.ui.base.BaseViewModel
+import com.test.myapplication.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<BaseViewModel,ActivityMainBinding>() {
+    override fun initView() {
+        TODO("Not yet implemented")
     }
+
+    override fun getLayout()=R.layout.activity_main
+
+    override fun createObserver() {
+
+    }
+
 }
